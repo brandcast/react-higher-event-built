@@ -1,6 +1,6 @@
 {
   "name": "react-higher-event",
-  "version": "1.1.0",
+  "version": "2.0.1",
   "description": "Declarative React API to listen to higher events",
   "main": "lib/index.js",
   "files": [
@@ -36,13 +36,14 @@
     "flow-bin": "^0.26.0",
     "jest-cli": "^12.1.1",
     "react": "^15.1.0",
-    "react-addons-test-utils": "^15.1.0",
     "react-dom": "^15.1.0",
     "webpack": "^1.13.1",
     "webpack-dev-server": "^1.14.1"
   },
+  "dependencies": {
+    "prop-types": "^15.5.0"
+  },
   "peerDependencies": {
-    "prop-types": "^15.5.0",
     "react": "^15.1.0 || ^16.0.0",
     "react-dom": "^15.1.0 || ^16.0.0"
   },
